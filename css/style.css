@@ -53,3 +53,12 @@ h1, h2, h3, h4, .logo, .num, .price, .plan-price, .stats strong {
 .btn-accent { background: var(--rust); color: #fff; }
 .btn-accent:hover { background: #9a3412; }
 .btn-sm { padding: 8px 18px; font-size: 13px; }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--dark);
+  color: #cbd5e1;
+  font-size: 12px;
+  padding: 10px 36px;
+}
