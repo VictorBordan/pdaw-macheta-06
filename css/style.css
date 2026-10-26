@@ -349,3 +349,77 @@ h3 {
   letter-spacing: 1px;
   font-size: 12px;
 }
+
+.produs-info .stele {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+
+.produs-info b {
+  display: inline-block;
+  margin-top: 8px;
+  color: #203f9b;
+  font-size: 14px;
+}
+
+.produs-info .buton {
+  float: right;
+  margin-top: 4px;
+}
+
+.recenzii-grid {
+  margin-top: 28px;
+  text-align: left;
+}
+
+.recenzii-grid article {
+  padding: 18px;
+  border: 1px solid #e0e6f1;
+  border-radius: 16px;
+}
+
+.recenzii-grid p {
+  color: #65738d;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.recenzii-grid b,
+.recenzii-grid small {
+  display: block;
+  font-size: 11px;
+}
+
+.recenzii-grid small {
+  color: #71809c;
+}
+
+.galerie {
+  background: #f6f8fc;
+  text-align: center;
+}
+
+.galerie-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 115px 115px;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.galerie-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.galerie-grid img:first-child {
+  grid-row: span 2;
+}
+
+.galerie-grid img:last-child {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
