@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .bara-sus {
   display: flex;
   justify-content: space-between;
@@ -39,15 +43,58 @@ a {
   border-bottom: 1px solid #e5e9f2;
 }
 
-{
-  box-sizing: border-box;
-}
 
 logo {
   font-size: 21px;
   font-weight: bold;
   white-space: nowrap;
 }
-
 .logo b {
   color: #c43d08;
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+  font-size: 13px;
+}
+
+nav a:hover,
+nav .activ {
+  color: #213f9b;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.buton {
+  display: inline-block;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 25px;
+  background: #203f9b;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buton:hover {
+  background: #c43d08;
+  transform: translateY(-2px);
+}
+
+.buton.mic {
+  padding: 8px 17px;
+  white-space: nowrap;
+}
+
+.buton.contur {
+  background: white;
+  color: #203f9b;
+  border: 1px solid #203f9b;
+}
+
+.buton.contur:hover {
+  background: #203f9b;
+  color: white;
+}
