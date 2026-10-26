@@ -38,3 +38,16 @@ a {
   background: white;
   border-bottom: 1px solid #e5e9f2;
 }
+
+{
+  box-sizing: border-box;
+}
+
+logo {
+  font-size: 21px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.logo b {
+  color: #c43d08;
