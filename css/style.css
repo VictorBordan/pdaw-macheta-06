@@ -423,3 +423,59 @@ h3 {
   grid-column: 3;
   grid-row: 1 / span 2;
 }
+
+.planuri {
+  margin-top: 35px;
+  align-items: center;
+}
+
+.planuri article {
+  position: relative;
+  min-height: 260px;
+  padding: 24px 18px;
+  border: 1px solid #e0e6f1;
+  border-radius: 18px;
+  text-align: left;
+}
+
+.planuri article h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.pret {
+  display: block;
+  margin: 4px 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.pret small {
+  color: #71809c;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.planuri article p {
+  padding-bottom: 7px;
+  border-bottom: 1px dashed #e0e6f1;
+  font-size: 11px;
+}
+
+.planuri .buton {
+  display: table;
+  margin: 25px auto 0;
+}
+
+.planuri .plan-popular {
+  background: #10182b;
+  color: white;
+}
+
+.plan-popular p {
+  border-color: #354057 !important;
+}
+
+.plan-popular .buton {
+  background: #c43d08;
+}
