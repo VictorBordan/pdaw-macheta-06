@@ -62,3 +62,22 @@ h1, h2, h3, h4, .logo, .num, .price, .plan-price, .stats strong {
   font-size: 12px;
   padding: 10px 36px;
 }
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px 36px;
+  border-bottom: 1px solid var(--line);
+}
+.logo { font-size: 22px; font-weight: 700; }
+.logo span { color: var(--rust); }
+.logo-light { color: #fff; }
+.menu { display: flex; gap: 26px; }
+.menu a { font-size: 14px; padding-bottom: 4px; transition: color 0.2s; }
+.menu a:hover { color: var(--navy); }
+.menu a.active { color: var(--navy); font-weight: 700; border-bottom: 2px solid var(--navy); }
