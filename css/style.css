@@ -283,3 +283,69 @@ h3 {
   margin: 8px 0 4px;
   font-size: 14px;
 }
+.avantaje-grid p,
+.produs-info p {
+  margin: 4px 0;
+  color: #71809c;
+  font-size: 11px;
+}
+
+.produse {
+  background: #f6f8fc;
+  text-align: center;
+}
+
+.produse-grid {
+  margin-top: 28px;
+  text-align: left;
+  gap: 18px;
+}
+
+.produs {
+  overflow: hidden;
+  border-radius: 16px;
+  background: white;
+  transition: 0.2s;
+}
+
+.produs:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px #15213c18;
+}
+
+.produs-poza {
+  position: relative;
+}
+
+.produs-poza img {
+  display: block;
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+}
+
+.eticheta-poza {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: #c43d08;
+  color: white;
+  font-size: 10px;
+}
+
+.produs-info {
+  position: relative;
+  padding: 10px 13px 13px;
+}
+
+.produs-info h3 {
+  margin: 0;
+}
+
+.stele {
+  color: #f28a00;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
