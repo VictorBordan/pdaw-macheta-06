@@ -98,3 +98,45 @@ nav .activ {
   background: #203f9b;
   color: white;
 }
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 38px;
+  padding: 55px 38px 60px;
+}
+
+.poza-hero {
+  position: relative;
+}
+
+.poza-hero img {
+  display: block;
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.reducere {
+  position: absolute;
+  top: -22px;
+  right: -28px;
+  display: flex;
+  width: 112px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid white;
+  border-radius: 50%;
+  background: #c43d08;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.reducere small {
+  font-size: 10px;
+  font-weight: normal;
+}
