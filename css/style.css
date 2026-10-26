@@ -555,3 +555,102 @@ footer {
 .footer-grid h3 {
   margin-top: 4px;
 }
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #394155;
+  color: #9ca8bf;
+  font-size: 10px;
+}
+
+.buton-plutitor {
+  position: fixed;
+  right: max(calc((100vw - 960px) / 2 + 20px), 20px);
+  bottom: 25px;
+  display: flex;
+  width: 54px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #c43d08;
+  color: white;
+  font-size: 21px;
+  box-shadow: 0 4px 12px #0002;
+  transition: 0.2s;
+}
+
+.buton-plutitor:hover {
+  transform: scale(1.08);
+}
+
+/* Adaptare pentru ecrane mai mici */
+@media (max-width: 720px) {
+  .bara-sus span:last-child,
+  .header .buton,
+  nav a:nth-child(n+3) {
+    display: none;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 35px 24px;
+  }
+
+  .text-hero h1 {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 38px 22px;
+  }
+
+  .avantaje-grid,
+  .produse-grid,
+  .recenzii-grid,
+  .planuri {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .avantaje-grid,
+  .produse-grid,
+  .recenzii-grid,
+  .planuri {
+    grid-template-columns: 1fr;
+  }
+
+  .statistici {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .galerie-grid {
+    grid-template-rows: 100px 100px;
+  }
+
+  .copyright {
+    flex-direction: column;
+  }
+
+  .abonare {
+    padding: 30px 16px;
+  }
+}
