@@ -140,3 +140,86 @@ nav .activ {
   font-size: 10px;
   font-weight: normal;
 }
+.cadou {
+  position: absolute;
+  left: 16px;
+  bottom: -12px;
+  padding: 10px 16px;
+  background: white;
+  border-radius: 12px;
+  font-size: 12px;
+  box-shadow: 0 3px 15px #0001;
+}
+
+.cadou small {
+  color: #71809c;
+}
+
+.eticheta {
+  display: inline-block;
+  padding: 5px 12px;
+  background: #e8edff;
+  border-radius: 20px;
+  color: #203f9b;
+  font-size: 11px;
+}
+
+h1 {
+  margin: 8px 0 24px;
+  font-size: 34px;
+  line-height: 1.15;
+}
+
+h1 em {
+  color: #203f9b;
+  font-style: normal;
+}
+
+.text-hero p,
+.subtext {
+  color: #687795;
+  font-size: 13px;
+}
+
+.actiuni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.statistici {
+  display: flex;
+  gap: 35px;
+}
+
+.statistici div {
+  display: flex;
+  flex-direction: column;
+}
+
+.statistici b {
+  font-size: 20px;
+}
+
+.statistici small {
+  color: #71809c;
+  font-size: 10px;
+}
+
+section {
+  padding: 48px 38px;
+}
+
+.avantaje,
+.recenzii,
+.club {
+  text-align: center;
+}
+
+.supratitlu {
+  margin: 0;
+  color: #203f9b;
+  font-size: 10px;
+  font-weight: bold;
+}
