@@ -1,2 +1,4 @@
 # pdaw-macheta-06
-Evaluare periodică
+Bordan Victor
+IT11Z
+Varianta 06
