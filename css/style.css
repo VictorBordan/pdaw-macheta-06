@@ -1,0 +1,8 @@
+.bara-sus {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 28px;
+  background: #10182b;
+  color: #d9dfed;
+  font-size: 11px;
+}
