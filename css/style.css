@@ -223,3 +223,63 @@ section {
   font-size: 10px;
   font-weight: bold;
 }
+.avantaje,
+.recenzii,
+.club {
+  text-align: center;
+}
+
+.supratitlu {
+  margin: 0;
+  color: #203f9b;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 3px 0 8px;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.avantaje .subtext,
+.produse .subtext,
+.club .subtext {
+  margin: 10px 0 28px;
+}
+
+.avantaje-grid,
+.produse-grid,
+.recenzii-grid,
+.planuri {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.avantaje-grid {
+  margin-top: 32px;
+  text-align: left;
+}
+
+.avantaje-grid article {
+  border-top: 3px solid #203f9b;
+  padding: 12px 16px;
+}
+
+.numar {
+  display: flex;
+  justify-content: space-between;
+  color: #e2e9ff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.numar span {
+  font-size: 17px;
+}
+
+h3 {
+  margin: 8px 0 4px;
+  font-size: 14px;
+}
